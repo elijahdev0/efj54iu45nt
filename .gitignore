@@ -1,0 +1,27 @@
+# Dependencies
+/vendor/
+/node_modules/
+composer.phar
+npm-debug.log
+yarn-error.log
+
+# Environment
+.env
+.env.backup
+.phpunit.result.cache
+.venv/
+
+# IDE and OS files
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+.DS_Store
+Thumbs.db
+
+# Build files
+/build/
+/dist/
+
+# Logs
+*.log 

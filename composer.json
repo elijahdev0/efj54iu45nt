@@ -1,0 +1,21 @@
+{
+    "require": {
+        "php": ">=7.4.33",
+        "a5hleyrich/wp-background-processing": "@stable",
+        "guzzlehttp/guzzle": "@stable",
+        "phpseclib/phpseclib": "@stable",
+        "symfony/process": "@stable",
+        "ext-json": "*",
+        "ext-curl": "*",
+        "ext-fileinfo": "*",
+        "zircote/swagger-php": "^5.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "FSPoster\\": ""
+        }
+    },
+    "require-dev": {
+        "pronamic/wp-documentor": "*"
+    }
+}
